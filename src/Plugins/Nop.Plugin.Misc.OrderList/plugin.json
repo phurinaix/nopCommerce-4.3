@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Misc",
+  "FriendlyName": "OrderList",
+  "SystemName": "Misc.OrderList",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.20", "4.30" ],
+  "Author": "test team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Misc.OrderList.dll",
+  "Description": "This plugin is for get order list by date"
+}
