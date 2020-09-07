@@ -1,0 +1,9 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<h1>Welcome to Custom Page</h1>
+<form method="post">
+    <input type="datetime-local" id="CreatedFromUtc" name="CreatedFromUtc">
+    <input type="datetime-local" id="CreatedToUtc" name="CreatedToUtc">
+    <button formaction="/Admin/MiscOrders/GetOrderList">Get Order List</button>
+</form>
